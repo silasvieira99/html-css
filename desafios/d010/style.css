@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+}
+
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #3BD27F);
+    margin: 0px;
+    padding: 20px 20px 10px 15px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+nav {
+    margin-top:30px;
+}
+
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.95em;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding-inline: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+main > p {
+    text-align: justify;
+    padding: 20px;
+}
+h2 {
+    font-family: android, sans-serif;
+    color: #1F603C;
+    
+    text-align: left;
+}
+
+h3 {
+    font-family: android;
+    color: #1F603C;
+    background-image: linear-gradient(to left, white, #C5EBD6);
+   
+    text-align: left;
+}
+a{
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+#video {
+    background-color: #1A5C38;
+    margin: 0px;
+    
+}
+
+#extra {
+    margin: 20px;
+    padding: 1px 10px 1px 10px;
+    background-color: #C5EBD6;
+    text-align: justify;
+    border-radius: 10px;
+    font-weight: medium;
+}
+
+#titulo {
+    background-color: #2FA866;
+    color: white;
+}
+
+
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+}
