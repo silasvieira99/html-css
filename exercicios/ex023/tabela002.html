@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -22,6 +23,14 @@
         thead, tfoot {
             background-color: #494747;
             color: white;
+        }
+        thead > tr > th { /* Cabeçalho estático */
+            position: sticky;
+            top: -1px;
+            background-color: #494747;
+        }
+        tbody > tr:nth-child(2n) { /* Efeito zebrado */
+            background-color: lightgray;
         }
         td.num {
             text-align: right;
